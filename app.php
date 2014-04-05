@@ -2,7 +2,7 @@
  try {
                 require_once 'conf.php';
                 $conn = mysqlConnector();
-                $stmt = $conn->prepare('SELECT * FROM demo');
+                $stmt = $conn->prepare('SELECT * FROM venkat');
                 $stmt->execute();
 
                 while($row = $stmt->fetch()) {

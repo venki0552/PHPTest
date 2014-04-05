@@ -1,7 +1,7 @@
 <?php
         define('DB_HOST', getenv('OPENSHIFT_MYSQL_DB_HOST'));
-        define('DB_USER',getenv('OPENSHIFT_MYSQL_DB_USERNAME'));
-        define('DB_PASS',getenv('OPENSHIFT_MYSQL_DB_PASSWORD'));
+        define('DB_USER','adminWIugTmz');
+        define('DB_PASS','MXCtu7sHtApv');
         define('DB_BASE','phptest');
         define('DB_PORT',getenv('OPENSHIFT_MYSQL_DB_PORT')); 
 function mysqlConnector(){

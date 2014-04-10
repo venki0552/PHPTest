@@ -6,7 +6,7 @@
                 $stmt->execute();
 
                 while($row = $stmt->fetch()) {
-                        print_r($row);          
+                        echo $row;        
                 }
 
 
